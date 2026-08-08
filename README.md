@@ -22,11 +22,11 @@ This Repository contains my web development practice, mini-projects, and progres
 
 ## 📂 Projects
 
-Card  - HTML/CSS UI practice
-Card2 - CSS layout & styling
-Card3 - Web UI Practice
-First Card - Initial Web Development
-Recipe - Recipe Webpage
+- Card  - HTML/CSS UI practice
+- Card2 - CSS layout & styling
+- Card3 - Web UI Practice
+- First Card - Initial Web Development
+- Recipe - Recipe Webpage
 
 ## 📈 Learning Roadmap
 
