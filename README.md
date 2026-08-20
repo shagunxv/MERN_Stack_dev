@@ -27,6 +27,8 @@ This Repository contains my web development practice, mini-projects, and progres
 - Card3 - Web UI Practice
 - First Card - Initial Web Development
 - Recipe - Recipe Webpage
+- blogs - Blog and social-media inspired web pages
+- cssGrid - CSS Grid layout practice
 
 ## 📈 Learning Roadmap
 
@@ -41,6 +43,8 @@ React.JS + Express.js
   MongoDB
     ⬇️
 Full-Stack MERN projects
+    ⬇️
+Deployment
 
 ## 🎯 Goal
 
