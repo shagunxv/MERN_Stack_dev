@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+    background: #EEAECA;
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 5%, rgba(148, 187, 233, 1) 100%);
+}
+
+.container{
+    max-width: 80vw;
+    padding: 2rem 1rem;
+    margin: 0 auto;
+
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.header_container{
+    margin-bottom:2.8rem ;
+}
+
+.header_title{
+    margin-bottom: 1rem;
+    font-size: 1.9rem;
+    line-height: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.header_desc{
+    max-width:568px ;
+    text-align: center;
+    color:  rgb(97, 92, 92);
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+}
+
+.main_container{
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(1,1fr);
+}
+
+@media(min-width:765px){
+    .main_container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(min-width:1095px){
+    .main_container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media(min-width:1340px){
+    .main_container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.card_container{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(104, 102, 102);
+    border-radius: 7px;
+}
+
+.image_container{
+    position: relative;
+    overflow: hidden;
+    height: 20rem;
+    /* width: 16rem; */
+}
+
+@media(min-width:768px){
+    .card_image_container{
+        height: 25rem;
+    }
+}
+
+.card_image{
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.card_title_container{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+}
+
+.card_container:hover .card_image{
+    transform: scale(1.1);
+    transition-duration:200ms ;
+}
+
+.card_title{
+    font-size: 1.7rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+    color: rgb(25,23,23);
+}
+
+.card_title:hover{
+    color: rgb(59, 59, 211);
+}
+
+.card_desc{
+    color: rgb(2, 2, 2);
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.footer_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1rem;
+
+}
+
+.footer{
+    color:rgb(82, 79, 76)
+}
