@@ -47,10 +47,12 @@ a{
 .main_container{
     display: grid;
     gap: 1.5rem;
-    grid-template-columns: repeat(1,1fr);
+    /* grid-template-columns: repeat(1,1fr); */
+    grid-template-columns: repeat(auto-fit, minmax(150px, 300px));
+    justify-content: center;
 }
 
-@media(min-width:765px){
+/* @media(min-width:765px){
     .main_container{
         grid-template-columns: repeat(2, 1fr);
     }
@@ -66,7 +68,7 @@ a{
     .main_container{
         grid-template-columns: repeat(3, 1fr);
     }
-}
+} */
 
 .card_container{
     overflow: hidden;
@@ -136,4 +138,8 @@ a{
 
 .footer{
     color:rgb(82, 79, 76)
+}
+
+.card_container:hover .footer{
+    color: black;
 }
