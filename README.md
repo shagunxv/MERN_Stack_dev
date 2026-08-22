@@ -29,6 +29,8 @@ This Repository contains my web development practice, mini-projects, and progres
 - Recipe - Recipe Webpage
 - blogs - Blog and social-media inspired web pages
 - cssGrid - CSS Grid layout practice
+- Grid - Practicing Grid.
+- StudySync - The final website with HTML and CSS.
 
 ## 📈 Learning Roadmap
 
