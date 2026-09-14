@@ -1,0 +1,69 @@
+body{
+    background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+    color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+    width:80%;
+    max-width: 650px;
+    margin: 0 auto;
+    background-image: linear-gradient(to top, #bcd3e0 0%, #98a2a7 100%);
+    
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1{
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+h2{
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+#countdown{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    /* overflow: hidden; */
+}
+
+#countdown div{
+    text-align: center;
+    padding: 40px;
+    background: rgb(192, 191, 191);
+    border-radius: 5px;
+    
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+span{
+    font-size: xx-large;
+}
+
+.progress-container{
+    background-color: white;
+    width: 100%;
+    height: 10px;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+}
+
+#progress-bar{
+    background: rgb(144, 235, 9);
+    width: 0%;
+    height: 100%;
+    transition: width 1s ease-in-out;
+    border-radius: 5px;
+}
