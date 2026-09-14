@@ -31,6 +31,9 @@ This Repository contains my web development practice, mini-projects, and progres
 - cssGrid - CSS Grid layout practice
 - Grid - Practicing Grid.
 - StudySync - The final website with HTML and CSS.
+- Javascript - The basics of JavaScript.
+- CountdownApp - A basic project with HTML, CSS and JavaScript.
+- LeetMetrics - A project using JavaScript and APIs.
 
 ## 📈 Learning Roadmap
 
